@@ -1,4 +1,4 @@
-# Max Bazaar
+# Multi Sport App
 
 ### Description 
 React Native is a mobile application that allows to sport app.
