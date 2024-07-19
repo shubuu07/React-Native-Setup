@@ -24,7 +24,7 @@ const Tabs = () => {
           backgroundColor: "#fff",
           paddingTop: Hp(1),
           borderTopWidth: 0.3,
-          borderTopColor: Colors.white,
+          borderTopColor: "#fff",
           shadowColor: "#444",
           shadowOffset: {
             width: 0,
