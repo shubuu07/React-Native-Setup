@@ -1,6 +1,5 @@
 import { Text } from "react-native";
 import { Hp } from "../../Constants/Theme";
-import Snackbar from "react-native-snackbar";
 
 export default function TextError({ title }) {
     return (
@@ -9,14 +8,3 @@ export default function TextError({ title }) {
         </Text>
     )
 }
-
-
-export const showSnackbar = (message, backgroundColor) => {
-    Snackbar.show({
-        text: message,
-        duration: Snackbar.LENGTH_SHORT,
-        fontFamily: "Inter-SemiBold",
-        textColor: "#fff",
-        backgroundColor: backgroundColor
-    });
-};

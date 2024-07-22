@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* Sport5PhereAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Sport5PhereAppTests.m */; };
+		00E356F31AD99517003FC87E /* SportsSphereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SportsSphereTests.m */; };
+		0BDD9DB0BF9342D2BF2FCBBC /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6EB1DB6275D444999793823 /* Mulish-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2093A6CB8E29D127ABF7C0F1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7C8E01EF63CA3926C9B202FB /* PrivacyInfo.xcprivacy */; };
-		6A75E6AC2D52F4132970B6FE /* libPods-Sport5PhereApp-Sport5PhereAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB30A4103FF543A4E9F2D94 /* libPods-Sport5PhereApp-Sport5PhereAppTests.a */; };
-		79D9E8808528614266A8A636 /* libPods-Sport5PhereApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5B875E76F9C22670F4389 /* libPods-Sport5PhereApp.a */; };
+		25FE858BFB6C4DF9B25F8E24 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5FABD89D7B4816B755B42A /* Mulish-SemiBold.ttf */; };
+		4B69E912F94042288A5293A7 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10876261EBA84E4496E64F75 /* Inter-SemiBold.ttf */; };
+		6A75E6AC2D52F4132970B6FE /* libPods-SportsSphere-SportsSphereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB30A4103FF543A4E9F2D94 /* libPods-SportsSphere-SportsSphereTests.a */; };
+		79D9E8808528614266A8A636 /* libPods-SportsSphere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C5B875E76F9C22670F4389 /* libPods-SportsSphere.a */; };
+		7B5932F3CF9642C190D6DD5C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4CA9A807CD943CEBB307A57 /* Inter-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A7E398D64D8442E191DB6669 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E78D0DF2D05491C9D966AE8 /* Mulish-Black.ttf */; };
+		C01E80627ECA4087A4895EB9 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18B91331DE404813AF424CC2 /* Inter-Regular.ttf */; };
+		C7F4C1A5C76D4AD49B100039 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132305CD9C00477290C92A6C /* Mulish-Medium.ttf */; };
+		CD49A00372774AB4BD1F6952 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDACCE77B45C48AA80A61FFC /* Mulish-Bold.ttf */; };
+		E8C186491BCC44EE80DBC6C9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB6678C9B4B54F4CAE9ECE6B /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,29 +32,38 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Sport5PhereApp;
+			remoteInfo = SportsSphere;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* Sport5PhereAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sport5PhereAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SportsSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* Sport5PhereAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sport5PhereAppTests.m; sourceTree = "<group>"; };
-		04E9D6AD724B29330A02E94F /* Pods-Sport5PhereApp-Sport5PhereAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sport5PhereApp-Sport5PhereAppTests.release.xcconfig"; path = "Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Sport5PhereApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sport5PhereApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sport5PhereApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Sport5PhereApp/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Sport5PhereApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sport5PhereApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sport5PhereApp/main.m; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Sport5PhereApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19DD9F6843BC40B479F3337F /* Pods-Sport5PhereApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sport5PhereApp.debug.xcconfig"; path = "Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp.debug.xcconfig"; sourceTree = "<group>"; };
-		60C5B875E76F9C22670F4389 /* libPods-Sport5PhereApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sport5PhereApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67ABA509A6B9343655A292E2 /* Pods-Sport5PhereApp-Sport5PhereAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sport5PhereApp-Sport5PhereAppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6BB30A4103FF543A4E9F2D94 /* libPods-Sport5PhereApp-Sport5PhereAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sport5PhereApp-Sport5PhereAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C8E01EF63CA3926C9B202FB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sport5PhereApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Sport5PhereApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		882DF60802E6AA0FC8067519 /* Pods-Sport5PhereApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sport5PhereApp.release.xcconfig"; path = "Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SportsSphereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportsSphereTests.m; sourceTree = "<group>"; };
+		04E9D6AD724B29330A02E94F /* Pods-SportsSphere-SportsSphereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsSphere-SportsSphereTests.release.xcconfig"; path = "Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests.release.xcconfig"; sourceTree = "<group>"; };
+		10876261EBA84E4496E64F75 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/Assets/Fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		132305CD9C00477290C92A6C /* Mulish-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Medium.ttf"; path = "../src/Assets/Fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SportsSphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsSphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SportsSphere/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SportsSphere/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SportsSphere/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SportsSphere/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SportsSphere/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = SportsSphere/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		18B91331DE404813AF424CC2 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/Assets/Fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		19DD9F6843BC40B479F3337F /* Pods-SportsSphere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsSphere.debug.xcconfig"; path = "Target Support Files/Pods-SportsSphere/Pods-SportsSphere.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5FABD89D7B4816B755B42A /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-SemiBold.ttf"; path = "../src/Assets/Fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		4E78D0DF2D05491C9D966AE8 /* Mulish-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Black.ttf"; path = "../src/Assets/Fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
+		60C5B875E76F9C22670F4389 /* libPods-SportsSphere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SportsSphere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67ABA509A6B9343655A292E2 /* Pods-SportsSphere-SportsSphereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsSphere-SportsSphereTests.debug.xcconfig"; path = "Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB30A4103FF543A4E9F2D94 /* libPods-SportsSphere-SportsSphereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SportsSphere-SportsSphereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8E01EF63CA3926C9B202FB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SportsSphere/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SportsSphere/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882DF60802E6AA0FC8067519 /* Pods-SportsSphere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsSphere.release.xcconfig"; path = "Target Support Files/Pods-SportsSphere/Pods-SportsSphere.release.xcconfig"; sourceTree = "<group>"; };
+		B4CA9A807CD943CEBB307A57 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/Assets/Fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		BDACCE77B45C48AA80A61FFC /* Mulish-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Bold.ttf"; path = "../src/Assets/Fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		D6EB1DB6275D444999793823 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Regular.ttf"; path = "../src/Assets/Fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		EB6678C9B4B54F4CAE9ECE6B /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/Assets/Fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A75E6AC2D52F4132970B6FE /* libPods-Sport5PhereApp-Sport5PhereAppTests.a in Frameworks */,
+				6A75E6AC2D52F4132970B6FE /* libPods-SportsSphere-SportsSphereTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +80,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D9E8808528614266A8A636 /* libPods-Sport5PhereApp.a in Frameworks */,
+				79D9E8808528614266A8A636 /* libPods-SportsSphere.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* Sport5PhereAppTests */ = {
+		00E356EF1AD99517003FC87E /* SportsSphereTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* Sport5PhereAppTests.m */,
+				00E356F21AD99517003FC87E /* SportsSphereTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = Sport5PhereAppTests;
+			path = SportsSphereTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -86,7 +104,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Sport5PhereApp */ = {
+		13B07FAE1A68108700A75B9A /* SportsSphere */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -98,15 +116,15 @@
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				7C8E01EF63CA3926C9B202FB /* PrivacyInfo.xcprivacy */,
 			);
-			name = Sport5PhereApp;
+			name = SportsSphere;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				60C5B875E76F9C22670F4389 /* libPods-Sport5PhereApp.a */,
-				6BB30A4103FF543A4E9F2D94 /* libPods-Sport5PhereApp-Sport5PhereAppTests.a */,
+				60C5B875E76F9C22670F4389 /* libPods-SportsSphere.a */,
+				6BB30A4103FF543A4E9F2D94 /* libPods-SportsSphere-SportsSphereTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,12 +139,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Sport5PhereApp */,
+				13B07FAE1A68108700A75B9A /* SportsSphere */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* Sport5PhereAppTests */,
+				00E356EF1AD99517003FC87E /* SportsSphereTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C6E045046ACF439AADBFA202 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -136,8 +155,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Sport5PhereApp.app */,
-				00E356EE1AD99517003FC87E /* Sport5PhereAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* SportsSphere.app */,
+				00E356EE1AD99517003FC87E /* SportsSphereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,20 +164,37 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19DD9F6843BC40B479F3337F /* Pods-Sport5PhereApp.debug.xcconfig */,
-				882DF60802E6AA0FC8067519 /* Pods-Sport5PhereApp.release.xcconfig */,
-				67ABA509A6B9343655A292E2 /* Pods-Sport5PhereApp-Sport5PhereAppTests.debug.xcconfig */,
-				04E9D6AD724B29330A02E94F /* Pods-Sport5PhereApp-Sport5PhereAppTests.release.xcconfig */,
+				19DD9F6843BC40B479F3337F /* Pods-SportsSphere.debug.xcconfig */,
+				882DF60802E6AA0FC8067519 /* Pods-SportsSphere.release.xcconfig */,
+				67ABA509A6B9343655A292E2 /* Pods-SportsSphere-SportsSphereTests.debug.xcconfig */,
+				04E9D6AD724B29330A02E94F /* Pods-SportsSphere-SportsSphereTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6E045046ACF439AADBFA202 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA9A807CD943CEBB307A57 /* Inter-Bold.ttf */,
+				EB6678C9B4B54F4CAE9ECE6B /* Inter-Medium.ttf */,
+				18B91331DE404813AF424CC2 /* Inter-Regular.ttf */,
+				10876261EBA84E4496E64F75 /* Inter-SemiBold.ttf */,
+				4E78D0DF2D05491C9D966AE8 /* Mulish-Black.ttf */,
+				BDACCE77B45C48AA80A61FFC /* Mulish-Bold.ttf */,
+				132305CD9C00477290C92A6C /* Mulish-Medium.ttf */,
+				D6EB1DB6275D444999793823 /* Mulish-Regular.ttf */,
+				4D5FABD89D7B4816B755B42A /* Mulish-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Sport5PhereAppTests */ = {
+		00E356ED1AD99517003FC87E /* SportsSphereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Sport5PhereAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SportsSphereTests" */;
 			buildPhases = (
 				16F06703686A5BAA59DD2E54 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -172,14 +208,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Sport5PhereAppTests;
-			productName = Sport5PhereAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* Sport5PhereAppTests.xctest */;
+			name = SportsSphereTests;
+			productName = SportsSphereTests;
+			productReference = 00E356EE1AD99517003FC87E /* SportsSphereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Sport5PhereApp */ = {
+		13B07F861A680F5B00A75B9A /* SportsSphere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Sport5PhereApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SportsSphere" */;
 			buildPhases = (
 				C90CE20AA3A02D253513DF1B /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -193,9 +229,9 @@
 			);
 			dependencies = (
 			);
-			name = Sport5PhereApp;
-			productName = Sport5PhereApp;
-			productReference = 13B07F961A680F5B00A75B9A /* Sport5PhereApp.app */;
+			name = SportsSphere;
+			productName = SportsSphere;
+			productReference = 13B07F961A680F5B00A75B9A /* SportsSphere.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Sport5PhereApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SportsSphere" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Sport5PhereApp */,
-				00E356ED1AD99517003FC87E /* Sport5PhereAppTests */,
+				13B07F861A680F5B00A75B9A /* SportsSphere */,
+				00E356ED1AD99517003FC87E /* SportsSphereTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +285,15 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				2093A6CB8E29D127ABF7C0F1 /* PrivacyInfo.xcprivacy in Resources */,
+				7B5932F3CF9642C190D6DD5C /* Inter-Bold.ttf in Resources */,
+				E8C186491BCC44EE80DBC6C9 /* Inter-Medium.ttf in Resources */,
+				C01E80627ECA4087A4895EB9 /* Inter-Regular.ttf in Resources */,
+				4B69E912F94042288A5293A7 /* Inter-SemiBold.ttf in Resources */,
+				A7E398D64D8442E191DB6669 /* Mulish-Black.ttf in Resources */,
+				CD49A00372774AB4BD1F6952 /* Mulish-Bold.ttf in Resources */,
+				C7F4C1A5C76D4AD49B100039 /* Mulish-Medium.ttf in Resources */,
+				0BDD9DB0BF9342D2BF2FCBBC /* Mulish-Regular.ttf in Resources */,
+				25FE858BFB6C4DF9B25F8E24 /* Mulish-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +331,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sport5PhereApp-Sport5PhereAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SportsSphere-SportsSphereTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -299,15 +344,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4F84595AC8B99D256A735CF8 /* [CP] Embed Pods Frameworks */ = {
@@ -316,15 +361,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere/Pods-SportsSphere-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere/Pods-SportsSphere-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsSphere/Pods-SportsSphere-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AF4254B1E558EC5CE94C8D18 /* [CP] Copy Pods Resources */ = {
@@ -333,15 +378,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp-Sport5PhereAppTests/Pods-Sport5PhereApp-Sport5PhereAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsSphere-SportsSphereTests/Pods-SportsSphere-SportsSphereTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C90CE20AA3A02D253513DF1B /* [CP] Check Pods Manifest.lock */ = {
@@ -359,7 +404,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sport5PhereApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SportsSphere-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -372,15 +417,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere/Pods-SportsSphere-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportsSphere/Pods-SportsSphere-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sport5PhereApp/Pods-Sport5PhereApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsSphere/Pods-SportsSphere-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -390,7 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* Sport5PhereAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* SportsSphereTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +453,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Sport5PhereApp */;
+			target = 13B07F861A680F5B00A75B9A /* SportsSphere */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,14 +461,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67ABA509A6B9343655A292E2 /* Pods-Sport5PhereApp-Sport5PhereAppTests.debug.xcconfig */;
+			baseConfigurationReference = 67ABA509A6B9343655A292E2 /* Pods-SportsSphere-SportsSphereTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Sport5PhereAppTests/Info.plist;
+				INFOPLIST_FILE = SportsSphereTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,19 +480,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsSphere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sport5PhereApp.app/Sport5PhereApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsSphere.app/SportsSphere";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04E9D6AD724B29330A02E94F /* Pods-Sport5PhereApp-Sport5PhereAppTests.release.xcconfig */;
+			baseConfigurationReference = 04E9D6AD724B29330A02E94F /* Pods-SportsSphere-SportsSphereTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = Sport5PhereAppTests/Info.plist;
+				INFOPLIST_FILE = SportsSphereTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,21 +504,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsSphere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sport5PhereApp.app/Sport5PhereApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsSphere.app/SportsSphere";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19DD9F6843BC40B479F3337F /* Pods-Sport5PhereApp.debug.xcconfig */;
+			baseConfigurationReference = 19DD9F6843BC40B479F3337F /* Pods-SportsSphere.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Sport5PhereApp/Info.plist;
+				INFOPLIST_FILE = SportsSphere/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sports Sphere";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,22 +530,26 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Sport5PhereApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsSphere;
+				PRODUCT_NAME = SportsSphere;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 882DF60802E6AA0FC8067519 /* Pods-Sport5PhereApp.release.xcconfig */;
+			baseConfigurationReference = 882DF60802E6AA0FC8067519 /* Pods-SportsSphere.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Sport5PhereApp/Info.plist;
+				INFOPLIST_FILE = SportsSphere/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sports Sphere";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,9 +560,12 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Sport5PhereApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsSphere;
+				PRODUCT_NAME = SportsSphere;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -681,7 +734,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Sport5PhereAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SportsSphereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -690,7 +743,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Sport5PhereApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SportsSphere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -699,7 +752,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Sport5PhereApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SportsSphere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

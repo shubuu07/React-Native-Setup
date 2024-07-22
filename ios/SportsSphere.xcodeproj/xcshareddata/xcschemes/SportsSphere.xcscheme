@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Sport5PhereApp.app"
-               BlueprintName = "Sport5PhereApp"
-               ReferencedContainer = "container:Sport5PhereApp.xcodeproj">
+               BuildableName = "SportsSphere.app"
+               BlueprintName = "SportsSphere"
+               ReferencedContainer = "container:SportsSphere.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "Sport5PhereAppTests.xctest"
-               BlueprintName = "Sport5PhereAppTests"
-               ReferencedContainer = "container:Sport5PhereApp.xcodeproj">
+               BuildableName = "SportsSphereTests.xctest"
+               BlueprintName = "SportsSphereTests"
+               ReferencedContainer = "container:SportsSphere.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Sport5PhereApp.app"
-            BlueprintName = "Sport5PhereApp"
-            ReferencedContainer = "container:Sport5PhereApp.xcodeproj">
+            BuildableName = "SportsSphere.app"
+            BlueprintName = "SportsSphere"
+            ReferencedContainer = "container:SportsSphere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Sport5PhereApp.app"
-            BlueprintName = "Sport5PhereApp"
-            ReferencedContainer = "container:Sport5PhereApp.xcodeproj">
+            BuildableName = "SportsSphere.app"
+            BlueprintName = "SportsSphere"
+            ReferencedContainer = "container:SportsSphere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

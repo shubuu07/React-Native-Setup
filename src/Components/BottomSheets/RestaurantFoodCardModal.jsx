@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity, Vibration, Platform } from "react-native";
 import RBSheet from "react-native-raw-bottom-sheet";
-import { COLORS, Hp, FONTS } from "../../constants/theme";
+import { COLORS, Hp, FONTS } from "../../Constants/Theme";
 // import { Minus, Plus, Star, X } from "phosphor-react-native";
 import icons from "../../constants/icons";
 import { useDispatch, useSelector } from "react-redux";

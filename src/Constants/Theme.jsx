@@ -16,6 +16,11 @@ export const Fonts = {
     intMed: { fontFamily: "Inter-Medium" },
     intReg: { fontFamily: "Inter-Regular" },
     intSemi: { fontFamily: "Inter-SemiBold" },
+    Muli: { fontFamily: 'Mulish-Regular' },
+    MuliMed: { fontFamily: 'Mulish-Medium' },
+    MuliSemi: { fontFamily: 'Mulish-SemiBold' },
+    MuliBold: { fontFamily: 'Mulish-Bold' },
+    MuliBlack: { fontFamily: 'Mulish-Black' },
 };
 
 const appTheme = { Colors, Fonts, Wp, Hp };

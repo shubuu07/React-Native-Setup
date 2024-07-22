@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/Assets/Fonts/Inter-Bold.ttf",
+      "sha1": "47ff07c75746682133b81e7ac0537ce50a4c9916"
+    },
+    {
+      "path": "src/Assets/Fonts/Inter-Medium.ttf",
+      "sha1": "e76f580811e031813e7150131a0724811cdd737a"
+    },
+    {
+      "path": "src/Assets/Fonts/Inter-Regular.ttf",
+      "sha1": "cfa780d0b50b2bb7eacb82984f1b18a95aaa40c5"
+    },
+    {
+      "path": "src/Assets/Fonts/Inter-SemiBold.ttf",
+      "sha1": "5e0c44e57e7e090252d79f622899e67585bb892c"
+    },
+    {
+      "path": "src/Assets/Fonts/Mulish-Black.ttf",
+      "sha1": "45732c45a85c41474a627b449b06a2477c50b5cd"
+    },
+    {
+      "path": "src/Assets/Fonts/Mulish-Bold.ttf",
+      "sha1": "eab0fa8dcde903b5fdec3bfe94c645f48cf0bf7d"
+    },
+    {
+      "path": "src/Assets/Fonts/Mulish-Medium.ttf",
+      "sha1": "0935586660615fe1c41fc1bc8aa3a5e0c8c744a8"
+    },
+    {
+      "path": "src/Assets/Fonts/Mulish-Regular.ttf",
+      "sha1": "6201b3d5d10905f878860861d4e7ebcca6ca3936"
+    },
+    {
+      "path": "src/Assets/Fonts/Mulish-SemiBold.ttf",
+      "sha1": "97cb4086e384a1e2e8688985b7eb8cbbc63354cb"
+    }
+  ]
+}

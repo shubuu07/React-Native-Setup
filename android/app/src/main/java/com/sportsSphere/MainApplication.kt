@@ -1,4 +1,4 @@
-package com.sport5phereapp
+package com.sportsSphere
 
 import android.app.Application
 import com.facebook.react.PackageList

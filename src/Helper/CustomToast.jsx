@@ -1,11 +1,11 @@
 import { View, Text } from 'react-native'
-import { Hp } from '../constants/theme'
+import { Hp, Wp } from '../Constants/Theme'
 
-function CustomToast({ message, type }) {
+function CustomToast({ message }) {
     return (
-        <View className='flex-row items-center justify-center px-3 
-         bg-white  rounded-md py-3' style={{ shadowColor: '#888', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.1, shadowRadius: 3.84, elevation: 10 }}>
-            <Text className={type === 'success' ? 'text-green-500 font-intMed capitalize' : type === 'error' ? 'text-red-500 font-intMed capitalize' : 'text-orange-500 font-intMed capitalize'} style={{ fontSize: Hp(1.7) }}>{message}</Text>
+        <View className='px-4 
+         bg-[#313033]  rounded-lg self-center' style={{ shadowColor: '#666', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.15, shadowRadius: 3.84, width: Wp(96), paddingVertical: Hp(2) }}>
+            <Text className="text-white font-intMed capitalize" style={{ fontSize: Hp(2.2) }}>{message}</Text>
         </View>
     );
 }

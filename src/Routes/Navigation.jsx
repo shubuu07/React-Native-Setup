@@ -12,8 +12,6 @@ const Navigation = () => {
         <NavigationContainer>
             <Stack.Navigator screenOptions={{
                 headerShown: false,
-                animationEnabled: true,
-                animation: 'slide_from_right',
             }} >
 
                 <Stack.Screen name="tabs" component={Tabs} options={{ gestureEnabled: false }} />

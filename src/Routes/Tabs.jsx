@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Platform, Text } from 'react-native';
-import { Colors, COLORS, Hp, Wp } from '../Constants/Theme';
+import { Hp, Wp } from '../Constants/Theme';
 import { House, User } from 'phosphor-react-native';
 import ProfileScreen from '../Screens/Main/ProfileTab/ProfileScreen';
 import HomeScreen from '../Screens/Main/HomeTab/HomeScreen';
@@ -18,14 +18,14 @@ const Tabs = () => {
         safeAreaInsets: { bottom: 0, top: 0 },
         unmountOnBlur: true,
         tabBarStyle: {
-          height: Platform.OS === 'android' ? 60 : 80,
-          paddingBottom: Platform.OS === 'android' ? 5 : 22,
+          height: Platform.OS === 'android' ? Hp(8) : Hp(8.5),
+          paddingBottom: Platform.OS === 'android' ? Hp(1.5) : Hp(2.5),
           paddingHorizontal: Wp(1),
           backgroundColor: "#fff",
           paddingTop: Hp(1),
           borderTopWidth: 0.3,
           borderTopColor: "#fff",
-          shadowColor: "#444",
+          shadowColor: "#333",
           shadowOffset: {
             width: 0,
             height: 2,
@@ -42,9 +42,9 @@ const Tabs = () => {
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <View className='items-center justify-center space-y-0.5' >
-                <House size={Hp(3.4)} className={focused ? "text-orange-500" : "text-slate-400"} variant='Bulk' />
-                <Text className={focused ? "font-intSemi text-orange-500" : "font-intSemi  text-slate-400"} style={{ fontSize: Hp(1.4) }}>Home</Text>
+              <View className='items-center justify-center' >
+                <House size={Hp(3.4)} className={focused ? "text-orange-500" : "text-[#717b9e]"} variant='Bulk' />
+                <Text className={focused ? "font-intSemi text-orange-500" : "font-intSemi  text-[#717b9e]"} style={{ fontSize: Hp(1.5) }}>Home</Text>
               </View>
             );
           },
@@ -56,9 +56,9 @@ const Tabs = () => {
         options={{
           tabBarIcon: ({ focused }) => {
             return (
-              <View className='items-center justify-center space-y-0.5' >
-                <User size={Hp(3.4)} className={focused ? "text-orange-500" : "text-slate-400"} variant='Bulk' />
-                <Text className={focused ? "font-intSemi text-orange-500" : "font-intSemi  text-slate-400"} style={{ fontSize: Hp(1.4) }}>Profile</Text>
+              <View className='items-center justify-center' >
+                <User size={Hp(3.4)} className={focused ? "text-orange-500" : "text-[#717b9e]"} variant='Bulk' />
+                <Text className={focused ? "font-intSemi text-orange-500" : "font-intSemi  text-[#717b9e]"} style={{ fontSize: Hp(1.5) }}>Profile</Text>
               </View>
             );
           },

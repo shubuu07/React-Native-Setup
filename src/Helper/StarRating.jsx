@@ -1,6 +1,6 @@
 import { Star } from 'phosphor-react-native';
 import { View, Text } from 'react-native';
-import { Hp } from '../constants/theme';
+import { Hp } from '../Constants/Theme';
 
 const StarRating = ({ rating }) => (
     <View className="flex-row items-center space-x-[1px]">
