@@ -19,18 +19,18 @@ module.exports = {
         MuliBlack: ['Mulish-Black'],
       },
       backgroundColor: {
-        primary: '#ff5a00',
+        primary: '#f97316',
         secondary: 'rgb(252, 124, 59)',
         'light-black': '#162522',
-        'slate1': '#eff2fa', // Add the bg-light-white" class
+        'slate1': '#eff2fa',
         'slate2': '#EFF2F9',
         'light-dark': '#9ca3af',
       },
       textColor: {
-        primary: '#ff5a00',
+        primary: '#f97316',
         'slate1': '#eff2fa',
         'light-black': '#162522',
-        'light-white': '#F9F9F9', // Add the bg-light-white" class
+        'light-white': '#F9F9F9',
         'light-white1': '#ECEDF1',
         'light-dark': '#9ca3af',
       },

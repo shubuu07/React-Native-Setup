@@ -1,11 +1,19 @@
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
-import { useColorScheme } from "nativewind";
 
-export const { colorScheme } = useColorScheme();
 export const Colors = {
-    primary: '#F97316',
+    primary: '#f97316',
     secondary: 'rgb(252, 124, 59)',
     slateGray: '#eff2fa',
+    black: '#000000',
+    white: '#ffffff',
+    blue: '#3b82f6',
+    red: '#ef4444',
+    slateGray400: '#94a3b8',
+    slateGray500: '#64748b',
+    slateGray600: '#475569',
+    slateGray700: '#334155',
+    slateGray800: '#1e293b',
+    slateGray900: '#0f172a',
 };
 
 export const Wp = wp
